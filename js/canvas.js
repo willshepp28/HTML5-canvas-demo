@@ -24,8 +24,9 @@ window.onload = function () {
 |--------------------------------------------------------------------------
 */
     var head = circle(110,123,15);
-    var torso = setcoordinates(110,137,110,188);
-
+    var torso = setcoordinates(110,137,110,188); 
+    var rightArm = setcoordinates(86, 160, 120, 160);
+    var leftArm = setcoordinates(130, 160, 110,160);
 
 
     // creates a circle
@@ -43,6 +44,7 @@ window.onload = function () {
         ctx.beginPath();
         ctx.moveTo(moveStart, moveEnd);
         ctx.lineTo(lineStart, lineEnd);
+        ctx.lineWidth = "5";
         ctx.strokeStyle = "black";
         ctx.stroke();
     }
