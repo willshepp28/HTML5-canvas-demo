@@ -11,9 +11,9 @@ window.onload = function () {
 | Sets the coordinates of the gallows
 |--------------------------------------------------------------------------
 */
-    var bottomOfGallow = setcoordinates(90,275,250,275);
+    var bottomOfGallow = setcoordinates(120,275,225,275);
     var middleOfGallow = setcoordinates(175,275,175,60);
-    var topGallow = setcoordinates(110,60,175,60);
+    var topGallow = setcoordinates(107,60,178,60);
     var gallowDrop = setcoordinates(110,60,110,108);
 
 
