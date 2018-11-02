@@ -1,4 +1,15 @@
+body {
+    background-color: rgba(0, 0, 0, 0);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 canvas {
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
     text-align:center;
 }
+
