@@ -29,6 +29,14 @@ window.onload = function () {
     var leftArm = setcoordinates(130, 160, 110,160);
 
 
+
+    var rightLeg = setcoordinates(110, 185, 89, 205);
+    var leftLeg = setcoordinates(110, 185, 130, 206)
+
+
+
+
+
     // creates a circle
     function circle(xAxis,yAxis, radius ) {
         ctx.beginPath();
